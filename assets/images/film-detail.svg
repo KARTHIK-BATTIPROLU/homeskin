@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fdBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181E25"/>
+      <stop offset="100%" stop-color="#101419"/>
+    </linearGradient>
+
+    <!-- Base Luxury Marble Surface -->
+    <linearGradient id="fdMarble" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#F4F1EA"/>
+      <stop offset="100%" stop-color="#E2DDD2"/>
+    </linearGradient>
+
+    <!-- Layer 1: Hydrophobic Topcoat -->
+    <linearGradient id="fdLayer1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFE0B2" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FFD54F" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#C5A880" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Layer 2: Optical TPU Core -->
+    <linearGradient id="fdLayer2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#90CAF9" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#64B5F6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#42A5F5" stop-opacity="0.75"/>
+    </linearGradient>
+
+    <!-- Layer 3: Acrylic Adhesive -->
+    <linearGradient id="fdLayer3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E0E0E0" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#F5F5F5" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#BDBDBD" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <!-- Specular Macro Glint -->
+    <linearGradient id="fdMacroGlint" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#fdBg)"/>
+
+  <!-- Macro Focus Ring & Depth of Field Accent -->
+  <circle cx="400" cy="400" r="340" fill="#FFE8C4" opacity="0.04"/>
+
+  <!-- ========================================================
+       ISOMETRIC MULTI-LAYER OPTICAL FILM ARCHITECTURE
+       ======================================================== -->
+
+  <!-- Layer 4: Base Marble Slab (Substrate) -->
+  <g transform="translate(100, 480)">
+    <!-- Top Face -->
+    <polygon points="200,0 600,0 450,110 50,110" fill="url(#fdMarble)"/>
+    <!-- Marble Veins on Top Face -->
+    <g fill="none" opacity="0.7" stroke="#A89E8E" stroke-width="2.6">
+      <path d="M 80 80 Q 220 50, 360 70 T 540 40"/>
+      <path d="M 140 100 Q 280 70, 420 90"/>
+    </g>
+    <!-- Front Face -->
+    <polygon points="50,110 450,110 450,160 50,160" fill="#D3CCC0"/>
+    <!-- Right Face -->
+    <polygon points="450,110 600,0 600,50 450,160" fill="#B5ADA1"/>
+  </g>
+
+  <!-- Layer 3: Ultra-Clear Acrylic Adhesive Layer -->
+  <g transform="translate(100, 380)">
+    <polygon points="200,0 600,0 450,80 50,80" fill="url(#fdLayer3)"/>
+    <polygon points="50,80 450,80 450,96 50,96" fill="#9E9E9E"/>
+    <polygon points="450,80 600,0 600,16 450,96" fill="#757575"/>
+  </g>
+
+  <!-- Layer 2: Shock-Absorbing Optical TPU Core -->
+  <g transform="translate(100, 260)">
+    <polygon points="200,0 600,0 450,80 50,80" fill="url(#fdLayer2)"/>
+    <polygon points="50,80 450,80 450,110 50,110" fill="#1E88E5"/>
+    <polygon points="450,80 600,0 600,30 450,110" fill="#1565C0"/>
+    <!-- Internal Shock Damping Molecular Lines -->
+    <line x1="120" y1="50" x2="520" y2="50" stroke="#BBDEFB" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- Layer 1: Self-Healing Hydrophobic & Oleophobic Topcoat -->
+  <g transform="translate(100, 140)">
+    <polygon points="200,0 600,0 450,80 50,80" fill="url(#fdLayer1)"/>
+    <polygon points="50,80 450,80 450,102 50,102" fill="#FFA000"/>
+    <polygon points="450,80 600,0 600,22 450,102" fill="#FF8F00"/>
+    <!-- Pristine Specular Polish Sheen -->
+    <polygon points="200,0 600,0 450,80 50,80" fill="url(#fdMacroGlint)"/>
+    <line x1="50" y1="80" x2="450" y2="80" stroke="#FFFFFF" stroke-width="2.5" opacity="0.9"/>
+  </g>
+
+  <!-- Optical Layer Alignment Guides -->
+  <g stroke="#C5A880" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.7">
+    <line x1="150" y1="220" x2="150" y2="590"/>
+    <line x1="550" y1="220" x2="550" y2="590"/>
+  </g>
+
+  <!-- Spherical Water Droplet on Topcoat (Demonstrating Hydrophobic Contact Angle) -->
+  <ellipse cx="320" cy="180" rx="22" ry="16" fill="#E3F2FD" opacity="0.85"/>
+  <ellipse cx="320" cy="178" rx="18" ry="12" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="316" cy="175" rx="5" ry="3" fill="#FFFFFF"/>
+</svg>

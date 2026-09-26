@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wrBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B2229"/>
+      <stop offset="100%" stop-color="#12161D"/>
+    </linearGradient>
+    <linearGradient id="wrMatte" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#323B47"/>
+      <stop offset="50%" stop-color="#262D36"/>
+      <stop offset="100%" stop-color="#1C2229"/>
+    </linearGradient>
+    <linearGradient id="wrWood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7B5638"/>
+      <stop offset="50%" stop-color="#644329"/>
+      <stop offset="100%" stop-color="#4E331E"/>
+    </linearGradient>
+    <linearGradient id="wrFilm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.32"/>
+      <stop offset="50%" stop-color="#C5A880" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#wrBg)"/>
+
+  <!-- Bedroom Architecture & Flooring -->
+  <polygon points="0,520 800,520 800,600 0,600" fill="#14181F"/>
+
+  <!-- Floor-to-Ceiling Luxury Custom Wardrobe System -->
+  <!-- Main Frame -->
+  <rect x="80" y="40" width="640" height="480" fill="url(#wrMatte)" rx="4"/>
+
+  <!-- Vertical Wardrobe Door Panels -->
+  <!-- Door 1 (Matte Dark) -->
+  <rect x="85" y="45" width="150" height="470" fill="url(#wrMatte)"/>
+  <!-- Door 2 (Natural Walnut Veneer) -->
+  <rect x="242" y="45" width="150" height="470" fill="url(#wrWood)"/>
+  <!-- Door 3 (Natural Walnut Veneer) -->
+  <rect x="400" y="45" width="150" height="470" fill="url(#wrWood)"/>
+  <!-- Door 4 (Matte Dark) -->
+  <rect x="557" y="45" width="158" height="470" fill="url(#wrMatte)"/>
+
+  <!-- Wood Grain on Center Doors -->
+  <g stroke="#3A2514" stroke-width="1.5" opacity="0.4" fill="none">
+    <path d="M 255 100 Q 310 90, 380 95"/>
+    <path d="M 255 240 Q 315 230, 380 235"/>
+    <path d="M 255 380 Q 320 375, 380 380"/>
+    <path d="M 415 120 Q 480 115, 540 120"/>
+    <path d="M 415 260 Q 475 250, 540 255"/>
+    <path d="M 415 400 Q 480 395, 540 400"/>
+  </g>
+
+  <!-- Door Shadowline Reveal Gaps -->
+  <line x1="238" y1="40" x2="238" y2="520" stroke="#0E1217" stroke-width="4"/>
+  <line x1="395" y1="40" x2="395" y2="520" stroke="#0E1217" stroke-width="4"/>
+  <line x1="553" y1="40" x2="553" y2="520" stroke="#0E1217" stroke-width="4"/>
+
+  <!-- Slim Architectural Full-Height Handles in Brushed Brass -->
+  <rect x="228" y="180" width="4" height="160" rx="2" fill="#C5A880"/>
+  <rect x="248" y="180" width="4" height="160" rx="2" fill="#C5A880"/>
+  <rect x="543" y="180" width="4" height="160" rx="2" fill="#C5A880"/>
+  <rect x="563" y="180" width="4" height="160" rx="2" fill="#C5A880"/>
+
+  <!-- Integrated Vertical LED Reveal Strip in Center -->
+  <line x1="395" y1="50" x2="395" y2="510" stroke="#FFE9CA" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Protected High-Touch Panel Film Coating (Doors 2 & 3) -->
+  <polygon points="242,45 550,45 550,515 242,515" fill="url(#wrFilm)"/>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="riBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181D23"/>
+      <stop offset="100%" stop-color="#0E1216"/>
+    </linearGradient>
+    <linearGradient id="riDisplay" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#FAF9F6"/>
+      <stop offset="40%" stop-color="#EBE7DE"/>
+      <stop offset="100%" stop-color="#D7D0C2"/>
+    </linearGradient>
+    <linearGradient id="riGlint" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="40%" stop-color="#C5A880" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="riBrass" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9E815B"/>
+      <stop offset="50%" stop-color="#C5A880"/>
+      <stop offset="100%" stop-color="#E2CCA8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#riBg)"/>
+
+  <!-- High-End Luxury Retail Architecture -->
+  <!-- Illuminated Recessed Wall Niches in Background -->
+  <g opacity="0.85">
+    <!-- Niche 1 -->
+    <rect x="140" y="80" width="240" height="260" rx="8" fill="#202732"/>
+    <rect x="150" y="90" width="220" height="240" rx="6" fill="#14181F"/>
+    <rect x="150" y="90" width="220" height="6" fill="#FFEAC6" opacity="0.8"/>
+    <ellipse cx="260" cy="240" rx="40" ry="12" fill="#EAE5DC" opacity="0.4"/>
+    <!-- Niche 2 (Center) -->
+    <rect x="480" y="80" width="240" height="260" rx="8" fill="#202732"/>
+    <rect x="490" y="90" width="220" height="240" rx="6" fill="#14181F"/>
+    <rect x="490" y="90" width="220" height="6" fill="#FFEAC6" opacity="0.8"/>
+    <ellipse cx="600" cy="240" rx="40" ry="12" fill="#EAE5DC" opacity="0.4"/>
+    <!-- Niche 3 -->
+    <rect x="820" y="80" width="240" height="260" rx="8" fill="#202732"/>
+    <rect x="830" y="90" width="220" height="240" rx="6" fill="#14181F"/>
+    <rect x="830" y="90" width="220" height="6" fill="#FFEAC6" opacity="0.8"/>
+    <ellipse cx="940" cy="240" rx="40" ry="12" fill="#EAE5DC" opacity="0.4"/>
+  </g>
+
+  <!-- Flooring -->
+  <polygon points="0,480 1200,480 1200,675 0,675" fill="#171C23"/>
+
+  <!-- ========================================================
+       PRIMARY RETAIL DISPLAY ISLAND & SHOWCASE COUNTER
+       ======================================================== -->
+  <!-- Top Marble Display Counter Surface -->
+  <polygon points="260,390 940,390 1020,490 180,490" fill="url(#riDisplay)"/>
+
+  <!-- Marble veining -->
+  <g fill="none" opacity="0.65" stroke="#A99F90" stroke-width="2.2">
+    <path d="M 220 440 Q 460 410, 720 450 T 980 430"/>
+    <path d="M 300 480 Q 560 450, 800 480"/>
+  </g>
+
+  <!-- Clear Surface Protection Film Layer -->
+  <polygon points="260,390 940,390 1020,490 180,490" fill="url(#riGlint)"/>
+
+  <!-- Counter Front in Fluted Bronze & Blackened Wood -->
+  <polygon points="180,490 1020,490 1020,590 180,590" fill="#202732"/>
+  <rect x="200" y="490" width="800" height="10" fill="url(#riBrass)"/>
+
+  <!-- Glass Display Vitrines on Countertop -->
+  <polygon points="340,320 520,320 540,380 320,380" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  <polygon points="680,320 860,320 880,380 660,380" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+
+  <!-- Beveled Front Counter Edge Reflection -->
+  <line x1="180" y1="490" x2="1020" y2="490" stroke="#FFFFFF" stroke-width="2" opacity="0.85"/>
+</svg>

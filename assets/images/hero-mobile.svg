@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hkmBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181D24"/>
+      <stop offset="60%" stop-color="#222B36"/>
+      <stop offset="100%" stop-color="#13171D"/>
+    </linearGradient>
+    <linearGradient id="hkmMarble" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#FAF9F6"/>
+      <stop offset="35%" stop-color="#F2EFE8"/>
+      <stop offset="70%" stop-color="#E6E2D8"/>
+      <stop offset="100%" stop-color="#D9D3C6"/>
+    </linearGradient>
+    <linearGradient id="hkmWood" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7D5C40"/>
+      <stop offset="50%" stop-color="#62452E"/>
+      <stop offset="100%" stop-color="#483220"/>
+    </linearGradient>
+    <linearGradient id="hkmSun" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2DC" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hkmFilmGlint" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="40%" stop-color="#C5A880" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#hkmBg)"/>
+
+  <!-- Top Area: Negative Space Reserved for Mobile Hero Typography -->
+  <!-- Ceiling Cove Lighting Accent -->
+  <line x1="80" y1="30" x2="720" y2="30" stroke="#FFE7C4" stroke-width="2.5" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- Tall Garden Windows on Upper Right -->
+  <rect x="440" y="80" width="320" height="460" fill="#233235" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+  <line x1="600" y1="80" x2="600" y2="540" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <!-- Tropical Foliage Outside -->
+  <ellipse cx="520" cy="400" rx="90" ry="160" fill="#2E4839" opacity="0.85"/>
+  <ellipse cx="680" cy="360" rx="100" ry="180" fill="#3B5945" opacity="0.85"/>
+
+  <!-- Walnut Kitchen Wall Cabinets -->
+  <rect x="60" y="140" width="340" height="280" fill="url(#hkmWood)" rx="3"/>
+  <line x1="230" y1="140" x2="230" y2="420" stroke="#362314" stroke-width="2"/>
+  <rect x="60" y="416" width="340" height="4" fill="#FFE9CA" opacity="0.75"/>
+
+  <!-- Fluted Dark Stone Backsplash -->
+  <rect x="60" y="420" width="340" height="120" fill="#252D37"/>
+
+  <!-- Luxury Marble Waterfall Island Countertop (Center-Lower Focal Point) -->
+  <!-- Island Top -->
+  <polygon points="80,560 720,560 640,480 160,480" fill="url(#hkmMarble)"/>
+
+  <!-- Marble Veins on Top -->
+  <g fill="none" opacity="0.65" stroke="#B8ADA0" stroke-width="2.2">
+    <path d="M 180 500 Q 360 520, 500 510 T 680 530"/>
+    <path d="M 260 490 Q 380 530, 560 520"/>
+  </g>
+
+  <!-- Clear Protective Film Sheen on Island Top -->
+  <polygon points="80,560 720,560 640,480 160,480" fill="url(#hkmFilmGlint)"/>
+
+  <!-- Waterfall Front of Marble Island -->
+  <polygon points="80,560 720,560 720,900 80,900" fill="url(#hkmMarble)"/>
+  
+  <!-- Continuous Veins Flowing Down Front Face -->
+  <g fill="none" opacity="0.65" stroke="#B0A495" stroke-width="2.4">
+    <path d="M 220 560 Q 250 680, 270 800 T 290 900"/>
+    <path d="M 440 560 Q 420 700, 460 820 T 480 900"/>
+    <path d="M 600 560 Q 630 680, 610 800 T 640 900"/>
+  </g>
+
+  <!-- Left Waterfall Edge Depth Return -->
+  <polygon points="30,510 80,560 80,900 30,840" fill="#C8C0B2"/>
+  <line x1="80" y1="560" x2="80" y2="900" stroke="#C2B7A8" stroke-width="1.5"/>
+
+  <!-- Island Bar Stools in Walnut & Steel -->
+  <rect x="200" y="640" width="90" height="14" rx="4" fill="url(#hkmWood)"/>
+  <line x1="212" y1="654" x2="202" y2="900" stroke="#161A20" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="278" y1="654" x2="288" y2="900" stroke="#161A20" stroke-width="4.5" stroke-linecap="round"/>
+  
+  <rect x="480" y="640" width="90" height="14" rx="4" fill="url(#hkmWood)"/>
+  <line x1="492" y1="654" x2="482" y2="900" stroke="#161A20" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="558" y1="654" x2="568" y2="900" stroke="#161A20" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Soft Sunlight Shaft -->
+  <polygon points="560,80 800,80 800,1000 200,1000" fill="url(#hkmSun)"/>
+
+  <!-- Front Beveled Edge Highlight -->
+  <line x1="80" y1="560" x2="720" y2="560" stroke="#FFFFFF" stroke-width="2" opacity="0.85"/>
+</svg>

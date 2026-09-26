@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2630"/>
+      <stop offset="100%" stop-color="#0F141A"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C5A880"/>
+      <stop offset="100%" stop-color="#E2D4BF"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded square -->
+  <rect width="64" height="64" rx="14" fill="url(#shieldGrad)"/>
+  
+  <!-- Subtle inner border -->
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  
+  <!-- Stylized H with precision protection layer -->
+  <path d="M20 18 L20 46 M44 18 L44 46 M20 32 L44 32" stroke="url(#lineGrad)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Precision film geometric diamond badge -->
+  <circle cx="32" cy="19" r="2.5" fill="#E2D4BF" />
+</svg>

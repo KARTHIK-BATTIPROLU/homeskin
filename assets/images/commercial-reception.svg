@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="crBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0E1217"/>
+    </linearGradient>
+    <linearGradient id="crMarbleTop" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#EBE7DF"/>
+      <stop offset="100%" stop-color="#D9D2C5"/>
+    </linearGradient>
+    <linearGradient id="crMarbleFront" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8E4DC"/>
+      <stop offset="60%" stop-color="#D5CEBF"/>
+      <stop offset="100%" stop-color="#B8AF9F"/>
+    </linearGradient>
+    <linearGradient id="crGlint" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="45%" stop-color="#C5A880" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="crBronzePillars" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A68A64"/>
+      <stop offset="50%" stop-color="#C5A880"/>
+      <stop offset="100%" stop-color="#876C47"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#crBg)"/>
+
+  <!-- High-Ceiling Architecture with Bronze Fluting -->
+  <g opacity="0.3">
+    <rect x="140" y="0" width="18" height="380" fill="url(#crBronzePillars)"/>
+    <rect x="240" y="0" width="18" height="380" fill="url(#crBronzePillars)"/>
+    <rect x="940" y="0" width="18" height="380" fill="url(#crBronzePillars)"/>
+    <rect x="1040" y="0" width="18" height="380" fill="url(#crBronzePillars)"/>
+  </g>
+
+  <!-- Dramatic Warm Ceiling Downlights -->
+  <circle cx="380" cy="50" r="140" fill="#FFE8C4" opacity="0.08"/>
+  <circle cx="600" cy="50" r="160" fill="#FFE8C4" opacity="0.1"/>
+  <circle cx="820" cy="50" r="140" fill="#FFE8C4" opacity="0.08"/>
+
+  <!-- Backwall Dark Wood Paneling with Backlit Horizontal Band -->
+  <rect x="280" y="60" width="640" height="260" fill="#1C222B" rx="4"/>
+  <rect x="280" y="160" width="640" height="12" fill="#C5A880" opacity="0.8"/>
+  <rect x="300" y="80" width="600" height="70" fill="#242B36" opacity="0.5"/>
+
+  <!-- Polished Terrazzo Flooring -->
+  <polygon points="0,480 1200,480 1200,675 0,675" fill="#181E26"/>
+  <line x1="0" y1="480" x2="1200" y2="480" stroke="#C5A880" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- ========================================================
+       LARGE CURVED MARBLE RECEPTION DESK
+       ======================================================== -->
+  <!-- Shadow on Floor -->
+  <ellipse cx="600" cy="600" rx="460" ry="45" fill="#0A0D10" opacity="0.7"/>
+
+  <!-- Desk Countertop (Heavy-Duty High-Traffic Surface) -->
+  <polygon points="220,380 980,380 1060,490 140,490" fill="url(#crMarbleTop)"/>
+
+  <!-- Veining on Reception Top -->
+  <g fill="none" opacity="0.65" stroke="#A99F90" stroke-width="2.4">
+    <path d="M 180 430 Q 420 400, 680 440 T 1020 420"/>
+    <path d="M 260 470 Q 520 450, 780 480 T 1040 460"/>
+    <path d="M 340 395 Q 600 415, 840 400"/>
+  </g>
+
+  <!-- Clear Protection Film Layer Glint -->
+  <polygon points="220,380 980,380 1060,490 140,490" fill="url(#crGlint)"/>
+
+  <!-- Front Fascia of Counter -->
+  <polygon points="140,490 1060,490 1060,590 140,590" fill="url(#crMarbleFront)"/>
+
+  <!-- Downward Cascading Marble Veins on Front -->
+  <g fill="none" opacity="0.6" stroke="#9A8F80" stroke-width="2.2">
+    <path d="M 280 490 Q 320 540, 310 590"/>
+    <path d="M 520 490 Q 500 550, 540 590"/>
+    <path d="M 760 490 Q 800 540, 780 590"/>
+    <path d="M 940 490 Q 920 550, 960 590"/>
+  </g>
+
+  <!-- Recessed Base Shadowline with Warm Bronze Kickplate -->
+  <polygon points="170,590 1030,590 1030,605 170,605" fill="#C5A880" opacity="0.85"/>
+
+  <!-- Beveled Counter Edge Reflection -->
+  <line x1="140" y1="490" x2="1060" y2="490" stroke="#FFFFFF" stroke-width="2" opacity="0.85"/>
+</svg>

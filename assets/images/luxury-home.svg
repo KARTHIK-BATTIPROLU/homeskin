@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="lhBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#192027"/>
+      <stop offset="100%" stop-color="#101419"/>
+    </linearGradient>
+    <linearGradient id="lhSun" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2DC" stop-opacity="0.32"/>
+      <stop offset="50%" stop-color="#FFF8EE" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lhMarble" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#FAF9F6"/>
+      <stop offset="50%" stop-color="#ECE7DF"/>
+      <stop offset="100%" stop-color="#DDD7CB"/>
+    </linearGradient>
+    <linearGradient id="lhWood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7B5638"/>
+      <stop offset="100%" stop-color="#553922"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#lhBg)"/>
+
+  <!-- High-Ceiling Double-Height Architectural Windows (Right) -->
+  <rect x="780" y="40" width="380" height="520" fill="#24303D" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+  <line x1="970" y1="40" x2="970" y2="560" stroke="rgba(255,255,255,0.08)" stroke-width="3"/>
+  <rect x="795" y="60" width="160" height="480" fill="#2D3B4A" opacity="0.6"/>
+  <rect x="985" y="60" width="160" height="480" fill="#2D3B4A" opacity="0.6"/>
+
+  <!-- Lush Tropical Greenery Outside Windows -->
+  <ellipse cx="860" cy="420" rx="90" ry="160" fill="#2B4234" opacity="0.8"/>
+  <ellipse cx="1060" cy="380" rx="100" ry="180" fill="#3B5945" opacity="0.8"/>
+
+  <!-- Open-Plan Architectural Layout (Living, Dining, Kitchen Island) -->
+  <!-- Left Side: Custom Walnut Architectural Storage Wall -->
+  <rect x="60" y="80" width="280" height="400" fill="url(#lhWood)" rx="4"/>
+  <line x1="200" y1="80" x2="200" y2="480" stroke="#3A2414" stroke-width="2"/>
+  <!-- Display Niches with Warm Lighting -->
+  <rect x="90" y="140" width="80" height="100" rx="4" fill="#20150D"/>
+  <circle cx="130" cy="180" r="14" fill="#FFE0B2" opacity="0.2"/>
+  <rect x="230" y="240" width="80" height="100" rx="4" fill="#20150D"/>
+  <circle cx="270" cy="280" r="14" fill="#FFE0B2" opacity="0.2"/>
+
+  <!-- Center-Background: Dining Table Setting -->
+  <g transform="translate(380, 220)">
+    <!-- Tabletop -->
+    <polygon points="40,110 320,110 350,170 10,170" fill="url(#lhWood)"/>
+    <polygon points="10,170 350,170 350,185 10,185" fill="#4B311B"/>
+    <!-- Chairs -->
+    <rect x="60" y="50" width="55" height="75" rx="8" fill="#3A4654"/>
+    <rect x="150" y="50" width="55" height="75" rx="8" fill="#3A4654"/>
+    <rect x="240" y="50" width="55" height="75" rx="8" fill="#3A4654"/>
+    <!-- Minimalist Pendant Overhead -->
+    <line x1="180" y1="-140" x2="180" y2="20" stroke="#C5A880" stroke-width="2"/>
+    <ellipse cx="180" cy="20" rx="45" ry="10" fill="#C5A880"/>
+  </g>
+
+  <!-- Foreground: Low Marble Waterfall Coffee Table & Living Zone -->
+  <polygon points="360,450 780,450 830,550 310,550" fill="url(#lhMarble)"/>
+  
+  <!-- Veining on Tabletop -->
+  <g fill="none" opacity="0.65" stroke="#A89E8F" stroke-width="2">
+    <path d="M 340 480 Q 520 460, 680 490 T 800 470"/>
+    <path d="M 400 520 Q 560 500, 720 530"/>
+  </g>
+
+  <!-- Clear Film Protective Sheen on Tabletop -->
+  <polygon points="360,450 780,450 830,550 310,550" fill="#FFFFFF" fill-opacity="0.25"/>
+  <line x1="310" y1="550" x2="830" y2="550" stroke="#FFFFFF" stroke-width="2" opacity="0.8"/>
+
+  <!-- Table Front Waterfall -->
+  <polygon points="310,550 830,550 830,590 310,590" fill="#CDC6BA"/>
+
+  <!-- Contemporary Lounge Seating Around Table (Neutral Boucle/Linen) -->
+  <rect x="180" y="470" width="100" height="90" rx="14" fill="#EAE5DC"/>
+  <rect x="860" y="470" width="100" height="90" rx="14" fill="#EAE5DC"/>
+
+  <!-- Afternoon Golden Hour Sunlight Shaft -->
+  <polygon points="850,40 1200,40 1200,675 450,675" fill="url(#lhSun)"/>
+</svg>

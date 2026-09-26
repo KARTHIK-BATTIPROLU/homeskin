@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="dtBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E242B"/>
+      <stop offset="100%" stop-color="#14181F"/>
+    </linearGradient>
+    <linearGradient id="dtWood" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7A5437"/>
+      <stop offset="25%" stop-color="#966C47"/>
+      <stop offset="50%" stop-color="#835B3A"/>
+      <stop offset="75%" stop-color="#996E49"/>
+      <stop offset="100%" stop-color="#724D31"/>
+    </linearGradient>
+    <linearGradient id="filmGlint" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="45%" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#C5A880" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="dtSunlight" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2DC" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Luxury Room -->
+  <rect width="800" height="600" fill="url(#dtBg)"/>
+  
+  <!-- Modern architectural wall paneling -->
+  <g opacity="0.25">
+    <line x1="160" y1="40" x2="160" y2="400" stroke="#4A5666" stroke-width="1.5"/>
+    <line x1="320" y1="40" x2="320" y2="400" stroke="#4A5666" stroke-width="1.5"/>
+    <line x1="480" y1="40" x2="480" y2="400" stroke="#4A5666" stroke-width="1.5"/>
+    <line x1="640" y1="40" x2="640" y2="400" stroke="#4A5666" stroke-width="1.5"/>
+  </g>
+
+  <!-- Contemporary Minimalist Pendant Chandelier Overhead -->
+  <line x1="400" y1="0" x2="400" y2="110" stroke="#C5A880" stroke-width="2"/>
+  <rect x="250" y="110" width="300" height="8" rx="4" fill="#C5A880"/>
+  <circle cx="280" cy="114" r="5" fill="#FFF2DC"/>
+  <circle cx="360" cy="114" r="5" fill="#FFF2DC"/>
+  <circle cx="440" cy="114" r="5" fill="#FFF2DC"/>
+  <circle cx="520" cy="114" r="5" fill="#FFF2DC"/>
+
+  <!-- Dining Chairs Background (Backs) -->
+  <g opacity="0.85">
+    <rect x="180" y="170" width="100" height="150" rx="16" fill="#2E3743"/>
+    <rect x="350" y="170" width="100" height="150" rx="16" fill="#2E3743"/>
+    <rect x="520" y="170" width="100" height="150" rx="16" fill="#2E3743"/>
+  </g>
+
+  <!-- Flooring -->
+  <polygon points="0,480 800,480 800,600 0,600" fill="#1C2128"/>
+
+  <!-- Solid Wood Dining Tabletop -->
+  <polygon points="120,290 680,290 740,460 60,460" fill="url(#dtWood)"/>
+  
+  <!-- Realistic Natural Wood Grain Striations -->
+  <g opacity="0.45" stroke="#4E3117" stroke-width="1.6" fill="none">
+    <path d="M 100 420 Q 300 410, 500 415 T 710 430"/>
+    <path d="M 90 440 Q 350 435, 550 440 T 730 450"/>
+    <path d="M 120 370 Q 380 360, 540 365 T 700 380"/>
+    <path d="M 130 320 Q 360 315, 520 320 T 670 330"/>
+    <ellipse cx="410" cy="380" rx="22" ry="7"/>
+    <path d="M 380 380 Q 410 372, 440 380" stroke-width="1.2"/>
+  </g>
+
+  <!-- Front Bevel of Dining Table -->
+  <polygon points="60,460 740,460 740,488 60,488" fill="#52341A"/>
+
+  <!-- Table Legs - Architectural Matte Black Steel Base -->
+  <polygon points="140,488 170,488 200,580 160,580" fill="#14181F"/>
+  <polygon points="660,488 630,488 600,580 640,580" fill="#14181F"/>
+
+  <!-- Invisible Surface Protection Film Lustre & Reflection -->
+  <polygon points="120,290 680,290 740,460 60,460" fill="url(#filmGlint)"/>
+
+  <!-- Subtle Beveled Edge Reflection Highlight -->
+  <line x1="60" y1="460" x2="740" y2="460" stroke="#FFFFFF" stroke-width="2" opacity="0.7"/>
+
+  <!-- Elegant Ceramic Centerpiece -->
+  <ellipse cx="400" cy="360" rx="36" ry="12" fill="#EAE5DF" opacity="0.95"/>
+  <path d="M 400 310 Q 395 340, 400 355" stroke="#C5A880" stroke-width="2"/>
+  <circle cx="395" cy="305" r="4" fill="#C5A880"/>
+  <circle cx="405" cy="300" r="4" fill="#C5A880"/>
+
+  <!-- Warm Afternoon Natural Light -->
+  <polygon points="550,0 800,0 800,600 300,600" fill="url(#dtSunlight)"/>
+</svg>

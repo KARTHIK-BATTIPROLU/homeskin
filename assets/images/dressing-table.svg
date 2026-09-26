@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="drBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B2027"/>
+      <stop offset="100%" stop-color="#12161C"/>
+    </linearGradient>
+    <linearGradient id="drMirror" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#465463"/>
+      <stop offset="40%" stop-color="#2D3743"/>
+      <stop offset="100%" stop-color="#1E252D"/>
+    </linearGradient>
+    <linearGradient id="drStone" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#FAF8F5"/>
+      <stop offset="50%" stop-color="#EBE6DC"/>
+      <stop offset="100%" stop-color="#DDD6CA"/>
+    </linearGradient>
+    <linearGradient id="drFilm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#C5A880" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#drBg)"/>
+
+  <!-- Bedroom Background Lighting Accent -->
+  <circle cx="400" cy="200" r="180" fill="#FFE9C7" opacity="0.08"/>
+
+  <!-- Arched Vanity Mirror with Brass Halo Frame -->
+  <path d="M 280 340 L 280 180 A 120 120 0 0 1 520 180 L 520 340 Z" fill="url(#drMirror)" stroke="#C5A880" stroke-width="4"/>
+  <!-- Mirror Ambient Reflections -->
+  <path d="M 320 220 L 480 140 L 460 340 L 300 340 Z" fill="#FFFFFF" opacity="0.04"/>
+
+  <!-- Fluted Wood Accent Wall Behind Vanity -->
+  <g stroke="#262F3B" stroke-width="2" opacity="0.4">
+    <line x1="160" y1="40" x2="160" y2="400"/>
+    <line x1="200" y1="40" x2="200" y2="400"/>
+    <line x1="240" y1="40" x2="240" y2="400"/>
+    <line x1="560" y1="40" x2="560" y2="400"/>
+    <line x1="600" y1="40" x2="600" y2="400"/>
+    <line x1="640" y1="40" x2="640" y2="400"/>
+  </g>
+
+  <!-- Flooring -->
+  <polygon points="0,480 800,480 800,600 0,600" fill="#171C22"/>
+
+  <!-- Dressing Table Engineered Stone Surface -->
+  <!-- Top surface -->
+  <polygon points="140,340 660,340 720,460 80,460" fill="url(#drStone)"/>
+
+  <!-- Stone veining -->
+  <g fill="none" opacity="0.5" stroke="#B8AFA2" stroke-width="1.8">
+    <path d="M 120 420 Q 300 400, 480 430 T 700 410"/>
+    <path d="M 200 360 Q 420 380, 560 360"/>
+  </g>
+
+  <!-- Surface Protection Film Coating (Clean Invisible Shield) -->
+  <polygon points="140,340 660,340 720,460 80,460" fill="url(#drFilm)"/>
+
+  <!-- Vanity Front Fascia (Fluted Natural Oak with Brass Shadowline) -->
+  <polygon points="80,460 720,460 720,510 80,510" fill="#6A4B31"/>
+  <line x1="80" y1="462" x2="720" y2="462" stroke="#C5A880" stroke-width="2"/>
+  
+  <!-- Vanity Legs -->
+  <line x1="120" y1="510" x2="110" y2="590" stroke="#C5A880" stroke-width="6" stroke-linecap="round"/>
+  <line x1="680" y1="510" x2="690" y2="590" stroke="#C5A880" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Luxury Vanity Accessories (Perfume Bottles, Jewelry Tray) -->
+  <!-- Brass Jewelry Tray -->
+  <ellipse cx="250" cy="410" rx="45" ry="16" fill="#C5A880" opacity="0.8"/>
+  <ellipse cx="250" cy="408" rx="42" ry="14" fill="#E2DDD5"/>
+  <!-- Perfume flacons -->
+  <rect x="520" y="375" width="22" height="34" rx="4" fill="#FFFFFF" opacity="0.7"/>
+  <rect x="526" y="365" width="10" height="10" fill="#C5A880"/>
+  <rect x="560" y="380" width="28" height="28" rx="14" fill="#FFFFFF" opacity="0.6"/>
+  <rect x="570" y="370" width="8" height="10" fill="#C5A880"/>
+
+  <!-- Beveled Table Edge Reflection -->
+  <line x1="80" y1="460" x2="720" y2="460" stroke="#FFFFFF" stroke-width="2" opacity="0.8"/>
+</svg>

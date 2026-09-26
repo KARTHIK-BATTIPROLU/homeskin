@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="100%">
+  <defs>
+    <!-- Architectural Lighting Gradients -->
+    <linearGradient id="hkWall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181D23"/>
+      <stop offset="45%" stop-color="#222A33"/>
+      <stop offset="100%" stop-color="#1A2027"/>
+    </linearGradient>
+
+    <!-- Warm Daylight Entering from Large Garden Windows -->
+    <linearGradient id="hkSunlight" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5E5" stop-opacity="0.32"/>
+      <stop offset="40%" stop-color="#FFFDF7" stop-opacity="0.12"/>
+      <stop offset="85%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Italian Calacatta Gold Marble Island -->
+    <linearGradient id="hkMarbleTop" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#FAF9F6"/>
+      <stop offset="25%" stop-color="#F2EFE9"/>
+      <stop offset="65%" stop-color="#E8E4DB"/>
+      <stop offset="100%" stop-color="#DCD6CA"/>
+    </linearGradient>
+
+    <linearGradient id="hkMarbleFront" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F4F1EB"/>
+      <stop offset="40%" stop-color="#E7E2D8"/>
+      <stop offset="100%" stop-color="#CEC7BA"/>
+    </linearGradient>
+
+    <linearGradient id="hkMarbleSide" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2DDD3"/>
+      <stop offset="100%" stop-color="#C2BCB1"/>
+    </linearGradient>
+
+    <!-- Natural Warm Walnut Wood -->
+    <linearGradient id="hkWalnut" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7D5C40"/>
+      <stop offset="50%" stop-color="#5E422C"/>
+      <stop offset="100%" stop-color="#46311E"/>
+    </linearGradient>
+
+    <linearGradient id="hkDarkWood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3A291A"/>
+      <stop offset="100%" stop-color="#24190F"/>
+    </linearGradient>
+
+    <!-- Subtle Optical Surface Film Specular Sheen -->
+    <linearGradient id="hkFilmSheen" x1="0%" y1="0%" x2="100%" y2="60%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.5"/>
+      <stop offset="30%" stop-color="#C5A880" stop-opacity="0.25"/>
+      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <!-- Ambient Garden Backdrop Outside Window -->
+    <linearGradient id="hkGardenSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#354B4E"/>
+      <stop offset="60%" stop-color="#253A39"/>
+      <stop offset="100%" stop-color="#1A2825"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base Room Architecture -->
+  <rect width="1600" height="900" fill="url(#hkWall)"/>
+
+  <!-- Architectural Ceiling with Recessed Warm LED Cove -->
+  <polygon points="0,0 1600,0 1600,95 0,95" fill="#13171C"/>
+  <rect x="0" y="85" width="1600" height="4" fill="#C5A880" opacity="0.4"/>
+  <rect x="200" y="25" width="1200" height="40" rx="3" fill="#0E1216"/>
+  <line x1="220" y1="45" x2="1380" y2="45" stroke="#FFE9C7" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+
+  <!-- Large Floor-to-Ceiling Garden Glass Sliders (Right) -->
+  <rect x="940" y="95" width="620" height="740" fill="url(#hkGardenSky)"/>
+  
+  <!-- Lush Tropical Foliage Outside (Hyderabad Luxury Villa Garden) -->
+  <g opacity="0.85">
+    <ellipse cx="1060" cy="560" rx="120" ry="240" fill="#2E4839" transform="rotate(-15 1060 560)"/>
+    <ellipse cx="1200" cy="520" rx="140" ry="260" fill="#3B5945" transform="rotate(10 1200 520)"/>
+    <ellipse cx="1380" cy="580" rx="130" ry="280" fill="#2B4234" transform="rotate(-8 1380 580)"/>
+    <ellipse cx="1520" cy="510" rx="150" ry="300" fill="#334E3E" transform="rotate(12 1520 510)"/>
+    <!-- Palm frond silhouettes -->
+    <path d="M 1120 700 Q 1240 580, 1340 590 Q 1220 620, 1120 700" fill="#4B6E57"/>
+    <path d="M 1280 750 Q 1400 600, 1500 620 Q 1380 650, 1280 750" fill="#43644F"/>
+  </g>
+
+  <!-- Architectural Window Mullions & Matte Bronze Frames -->
+  <rect x="940" y="95" width="14" height="740" fill="#1A1F26"/>
+  <rect x="1240" y="95" width="16" height="740" fill="#1F252E"/>
+  <rect x="1546" y="95" width="14" height="740" fill="#1A1F26"/>
+  <rect x="940" y="95" width="620" height="12" fill="#1A1F26"/>
+  <rect x="940" y="460" width="620" height="10" fill="#1F252E" opacity="0.6"/>
+  <rect x="940" y="825" width="620" height="15" fill="#1A1F26"/>
+
+  <!-- Left Wall / Negative Space with Subtle Architectural Plaster Wash -->
+  <polygon points="0,95 480,95 480,840 0,840" fill="#1B2129"/>
+  <!-- Minimalist Brass Wall Sconce -->
+  <rect x="220" y="280" width="8" height="90" rx="4" fill="#C5A880"/>
+  <circle cx="224" cy="325" r="14" fill="#FFE8C9" opacity="0.4"/>
+  <circle cx="224" cy="325" r="5" fill="#FFF4E3"/>
+
+  <!-- Background Matte Cabinetry & Prep Counter -->
+  <rect x="480" y="160" width="460" height="260" fill="url(#hkWalnut)" rx="2"/>
+  <!-- Cabinet Vertical Reveal Gaps -->
+  <line x1="633" y1="160" x2="633" y2="420" stroke="#372618" stroke-width="2"/>
+  <line x1="786" y1="160" x2="786" y2="420" stroke="#372618" stroke-width="2"/>
+  <!-- Integrated Under-Cabinet LED Strip -->
+  <rect x="480" y="416" width="460" height="4" fill="#FFE9CA" opacity="0.8"/>
+
+  <!-- Backsplash in Fluted Dark Stone -->
+  <rect x="480" y="420" width="460" height="120" fill="#252D37"/>
+  <g stroke="#1D232B" stroke-width="1.5">
+    <line x1="520" y1="420" x2="520" y2="540"/><line x1="560" y1="420" x2="560" y2="540"/>
+    <line x1="600" y1="420" x2="600" y2="540"/><line x1="640" y1="420" x2="640" y2="540"/>
+    <line x1="680" y1="420" x2="680" y2="540"/><line x1="720" y1="420" x2="720" y2="540"/>
+    <line x1="760" y1="420" x2="760" y2="540"/><line x1="800" y1="420" x2="800" y2="540"/>
+    <line x1="840" y1="420" x2="840" y2="540"/><line x1="880" y1="420" x2="880" y2="540"/>
+  </g>
+
+  <!-- Polished Flooring in Terrazzo / Light Italian Crema Stone -->
+  <polygon points="0,680 1600,680 1600,900 0,900" fill="#2A323D"/>
+  <polygon points="180,680 1600,680 1600,900 0,900" fill="#222831" opacity="0.6"/>
+
+  <!-- ========================================================
+       CENTERPIECE: LUXURY MARBLE WATERFALL KITCHEN ISLAND
+       ======================================================== -->
+  
+  <!-- Island Shadow on Floor -->
+  <polygon points="280,845 1240,845 1300,890 220,890" fill="#0E1216" opacity="0.6"/>
+
+  <!-- 1. Top Marble Surface (Perspective Quadrilateral) -->
+  <polygon points="340,540 1200,540 1090,470 230,470" fill="url(#hkMarbleTop)"/>
+
+  <!-- Organic Calacatta Gold Marble Veining on Island Top -->
+  <g fill="none" opacity="0.6">
+    <path d="M 280 480 Q 420 500, 560 490 T 780 515 T 1020 495" stroke="#B8ADA0" stroke-width="2.2"/>
+    <path d="M 390 475 Q 490 515, 640 505 T 900 528" stroke="#D1BFA6" stroke-width="1.8"/>
+    <path d="M 680 490 Q 770 510, 850 505 T 1060 520" stroke="#A89A88" stroke-width="1.5"/>
+    <path d="M 310 495 Q 440 520, 520 515" stroke="#C4B6A4" stroke-width="1.2"/>
+    <!-- Fine delicate micro-veins -->
+    <path d="M 540 490 Q 560 520, 580 535" stroke="#C9BEAF" stroke-width="1"/>
+    <path d="M 820 510 Q 860 525, 910 538" stroke="#BFB09D" stroke-width="1"/>
+  </g>
+
+  <!-- Optically Protected Tabletop Film Surface Reflection / Lustre -->
+  <polygon points="340,540 1200,540 1090,470 230,470" fill="url(#hkFilmSheen)"/>
+
+  <!-- 2. Front Face of Marble Island -->
+  <polygon points="340,540 1200,540 1200,820 340,820" fill="url(#hkMarbleFront)"/>
+
+  <!-- Continuous Waterfall Veins Cascading Down Front -->
+  <g fill="none" opacity="0.65">
+    <path d="M 420 540 Q 460 620, 480 700 T 520 820" stroke="#B5A99B" stroke-width="2.6"/>
+    <path d="M 430 540 Q 480 630, 490 710" stroke="#C7B69E" stroke-width="1.6"/>
+    <path d="M 640 540 Q 610 630, 650 720 T 680 820" stroke="#A89B8C" stroke-width="2.2"/>
+    <path d="M 880 540 Q 920 640, 900 740 T 940 820" stroke="#C2B4A3" stroke-width="2"/>
+    <path d="M 1060 540 Q 1040 650, 1080 760 T 1100 820" stroke="#BCB0A0" stroke-width="1.8"/>
+  </g>
+
+  <!-- 3. Left Waterfall Edge Return (Full Depth Stone Wrap) -->
+  <polygon points="230,470 340,540 340,820 230,735" fill="url(#hkMarbleSide)"/>
+  <line x1="340" y1="540" x2="340" y2="820" stroke="#C2B7A8" stroke-width="1.5"/>
+
+  <!-- High-End Contemporary Island Stools (Warm Walnut & Blackened Steel) -->
+  <!-- Stool 1 -->
+  <g opacity="0.95">
+    <rect x="420" y="620" width="85" height="12" rx="4" fill="url(#hkWalnut)"/>
+    <line x1="432" y1="632" x2="422" y2="830" stroke="#161A20" stroke-width="4.5" stroke-linecap="round"/>
+    <line x1="492" y1="632" x2="502" y2="830" stroke="#161A20" stroke-width="4.5" stroke-linecap="round"/>
+    <line x1="426" y1="730" x2="498" y2="730" stroke="#161A20" stroke-width="3"/>
+  </g>
+  <!-- Stool 2 -->
+  <g opacity="0.95">
+    <rect x="620" y="620" width="85" height="12" rx="4" fill="url(#hkWalnut)"/>
+    <line x1="632" y1="632" x2="622" y2="830" stroke="#161A20" stroke-width="4.5" stroke-linecap="round"/>
+    <line x1="692" y1="632" x2="702" y2="830" stroke="#161A20" stroke-width="4.5" stroke-linecap="round"/>
+    <line x1="626" y1="730" x2="698" y2="730" stroke="#161A20" stroke-width="3"/>
+  </g>
+  <!-- Stool 3 -->
+  <g opacity="0.95">
+    <rect x="820" y="620" width="85" height="12" rx="4" fill="url(#hkWalnut)"/>
+    <line x1="832" y1="632" x2="822" y2="830" stroke="#161A20" stroke-width="4.5" stroke-linecap="round"/>
+    <line x1="892" y1="632" x2="902" y2="830" stroke="#161A20" stroke-width="4.5" stroke-linecap="round"/>
+    <line x1="826" y1="730" x2="898" y2="730" stroke="#161A20" stroke-width="3"/>
+  </g>
+
+  <!-- Minimalist Countertop Styling: Sculptural Ceramic Bowl -->
+  <ellipse cx="980" cy="495" rx="34" ry="12" fill="#ECE7DF"/>
+  <ellipse cx="980" cy="492" rx="30" ry="8" fill="#DFD8CE"/>
+  <!-- Delicate Dried Botanical Branches in Brushed Brass Vase -->
+  <rect x="1040" y="450" width="16" height="42" rx="4" fill="#C5A880"/>
+  <line x1="1048" y1="450" x2="1042" y2="390" stroke="#8A6E50" stroke-width="1.5"/>
+  <line x1="1048" y1="450" x2="1058" y2="380" stroke="#8A6E50" stroke-width="1.5"/>
+  <circle cx="1040" cy="385" r="4" fill="#C5A880" opacity="0.8"/>
+  <circle cx="1060" cy="376" r="4" fill="#C5A880" opacity="0.8"/>
+
+  <!-- Soft Afternoon Sunlight Spill Across Island & Room -->
+  <polygon points="1240,95 1600,95 1600,900 680,900" fill="url(#hkSunlight)"/>
+
+  <!-- Precision Edge Protection Highlight Along Island Bevel -->
+  <line x1="230" y1="470" x2="1090" y2="470" stroke="#FFFFFF" stroke-width="2" opacity="0.75"/>
+  <line x1="340" y1="540" x2="1200" y2="540" stroke="#FFFFFF" stroke-width="2" opacity="0.8"/>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="stpBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#192027"/>
+      <stop offset="100%" stop-color="#101419"/>
+    </linearGradient>
+
+    <!-- Natural Porous Stone Countertop Base -->
+    <linearGradient id="stpMarble" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#FAF9F6"/>
+      <stop offset="50%" stop-color="#ECE7DF"/>
+      <stop offset="100%" stop-color="#DCD6CA"/>
+    </linearGradient>
+
+    <!-- Hydrophobic Clear Film Layer (Right) -->
+    <linearGradient id="stpFilm" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="40%" stop-color="#C5A880" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <!-- Spilled Liquid (Rich Espresso / Dark Roast Coffee) -->
+    <linearGradient id="coffeeSpill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5D4037"/>
+      <stop offset="50%" stop-color="#4E342E"/>
+      <stop offset="100%" stop-color="#3E2723"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#stpBg)"/>
+
+  <!-- Luxury Kitchen Background Environment -->
+  <rect x="60" y="40" width="1080" height="200" fill="#202832" opacity="0.4" rx="4"/>
+  <rect x="100" y="60" width="480" height="120" fill="#2A3542" opacity="0.6"/>
+  <rect x="620" y="60" width="480" height="120" fill="#2A3542" opacity="0.6"/>
+
+  <!-- Countertop Marble Surface -->
+  <polygon points="60,240 1140,240 1140,580 60,580" fill="url(#stpMarble)"/>
+
+  <!-- Natural Marble Veins -->
+  <g fill="none" opacity="0.75" stroke="#A99F90" stroke-width="2.5">
+    <path d="M 80 290 Q 320 260, 580 300 T 1100 280"/>
+    <path d="M 120 420 Q 380 390, 640 440 T 1120 400"/>
+    <path d="M 240 520 Q 500 480, 780 530"/>
+  </g>
+
+  <!-- ========================================================
+       LEFT SIDE: UNPROTECTED STONE (LIQUID SEEPING & SPREADING)
+       ======================================================== -->
+  <!-- Dark Liquid Stain Soaking into Porous Micro-fissures -->
+  <!-- Absorbed shadow ring -->
+  <path d="M 240 380 Q 280 360, 360 375 T 460 410 Q 420 460, 340 450 T 220 420 Z" fill="#3E2723" opacity="0.22"/>
+  <!-- Liquid spreading puddle -->
+  <path d="M 260 390 Q 300 375, 360 385 T 440 415 Q 400 450, 330 440 T 250 415 Z" fill="url(#coffeeSpill)" opacity="0.85"/>
+  <!-- Dull seep ring -->
+  <path d="M 255 385 Q 295 370, 355 380 T 445 410" stroke="#4E342E" stroke-width="3" fill="none" opacity="0.6"/>
+
+  <!-- Ceramic Coffee Cup Resting on Counter -->
+  <ellipse cx="220" cy="370" rx="34" ry="14" fill="#FFFFFF"/>
+  <ellipse cx="220" cy="367" rx="30" ry="10" fill="#D7CCC8"/>
+  <ellipse cx="220" cy="367" rx="26" ry="7" fill="url(#coffeeSpill)"/>
+
+  <!-- ========================================================
+       RIGHT SIDE: PROTECTED STONE WITH HYDROPHOBIC SURFACE FILM
+       ======================================================== -->
+  <!-- Optical Protection Film Barrier -->
+  <polygon points="560,240 1140,240 1140,580 560,580" fill="url(#stpFilm)"/>
+
+  <!-- Dividing Film Edge -->
+  <line x1="560" y1="240" x2="560" y2="580" stroke="#FFFFFF" stroke-width="2.5" opacity="0.85"/>
+  <line x1="560" y1="240" x2="560" y2="580" stroke="#C5A880" stroke-width="1.2" opacity="0.8"/>
+
+  <!-- High-Surface-Tension Hydrophobic Spherical Droplets (Beading Cleanly) -->
+  <!-- Droplet 1 (Large tight bead) -->
+  <ellipse cx="760" cy="400" rx="26" ry="18" fill="url(#coffeeSpill)"/>
+  <ellipse cx="756" cy="395" rx="14" ry="8" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="754" cy="393" r="4" fill="#FFFFFF" opacity="0.9"/>
+  <!-- Droplet 2 -->
+  <ellipse cx="830" cy="370" rx="18" ry="13" fill="url(#coffeeSpill)"/>
+  <ellipse cx="828" cy="366" rx="9" ry="5" fill="#FFFFFF" opacity="0.4"/>
+  <circle cx="826" cy="364" r="2.5" fill="#FFFFFF" opacity="0.9"/>
+  <!-- Droplet 3 -->
+  <ellipse cx="710" cy="430" rx="16" ry="11" fill="url(#coffeeSpill)"/>
+  <ellipse cx="708" cy="427" rx="8" ry="4" fill="#FFFFFF" opacity="0.4"/>
+  <!-- Droplet 4 -->
+  <ellipse cx="880" cy="420" rx="20" ry="14" fill="url(#coffeeSpill)"/>
+  <ellipse cx="877" cy="416" rx="10" ry="6" fill="#FFFFFF" opacity="0.45"/>
+  <!-- Droplet 5 -->
+  <ellipse cx="800" cy="450" rx="14" ry="10" fill="url(#coffeeSpill)"/>
+  <circle cx="798" cy="447" r="2" fill="#FFFFFF" opacity="0.85"/>
+
+  <!-- Front Beveled Edge of Countertop -->
+  <polygon points="60,580 1140,580 1140,615 60,615" fill="#C4BCAD"/>
+  <line x1="60" y1="580" x2="1140" y2="580" stroke="#FFFFFF" stroke-width="2" opacity="0.85"/>
+</svg>

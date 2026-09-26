@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="kpBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A2128"/>
+      <stop offset="100%" stop-color="#12161D"/>
+    </linearGradient>
+    <linearGradient id="kpMarble" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#F3EFE7"/>
+      <stop offset="100%" stop-color="#E0D8CB"/>
+    </linearGradient>
+    <linearGradient id="kpFilm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#C5A880" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="kpSqueegee" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9C7F59"/>
+      <stop offset="50%" stop-color="#C5A880"/>
+      <stop offset="100%" stop-color="#DEC9A8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#kpBg)"/>
+
+  <!-- High-End Kitchen Background Environment -->
+  <rect x="60" y="40" width="680" height="200" fill="#242D36" opacity="0.4" rx="4"/>
+  <rect x="100" y="60" width="280" height="120" fill="#303A46" opacity="0.6"/>
+  <rect x="420" y="60" width="280" height="120" fill="#303A46" opacity="0.6"/>
+
+  <!-- Luxury Marble Countertop Slab -->
+  <polygon points="60,260 740,260 740,540 60,540" fill="url(#kpMarble)"/>
+
+  <!-- Marble Veins Underneath Film -->
+  <g fill="none" opacity="0.75" stroke="#ABA091" stroke-width="2.2">
+    <path d="M 80 300 Q 280 280, 480 320 T 720 290"/>
+    <path d="M 100 420 Q 320 390, 520 440 T 700 410"/>
+    <path d="M 220 260 Q 400 310, 600 270"/>
+    <path d="M 160 500 Q 360 460, 580 500"/>
+  </g>
+
+  <!-- Transparent Protection Film Being Installed Smoothly (Left Half) -->
+  <polygon points="60,260 480,260 480,540 60,540" fill="url(#kpFilm)"/>
+
+  <!-- Film Transition Edge Being Pressed Out -->
+  <line x1="480" y1="260" x2="480" y2="540" stroke="#FFFFFF" stroke-width="2.5" opacity="0.85"/>
+
+  <!-- Professional Squeegee Tool at Work -->
+  <g transform="translate(450, 360) rotate(-10)">
+    <!-- Tool Grip Handle -->
+    <rect x="-12" y="-60" width="24" height="60" rx="5" fill="#14181E"/>
+    <!-- Metal Clamp -->
+    <rect x="-65" y="0" width="130" height="20" rx="3" fill="url(#kpSqueegee)"/>
+    <!-- Soft Rubber Blade -->
+    <polygon points="-65,20 65,20 60,30 -60,30" fill="#FFE2B8"/>
+    <line x1="-60" y1="30" x2="60" y2="30" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+
+  <!-- Clean Precision Front Countertop Bevel -->
+  <polygon points="60,540 740,540 740,575 60,575" fill="#C4BCAD"/>
+  <line x1="60" y1="540" x2="740" y2="540" stroke="#FFFFFF" stroke-width="2" opacity="0.9"/>
+</svg>

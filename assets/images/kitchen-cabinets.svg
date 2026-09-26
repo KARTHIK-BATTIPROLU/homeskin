@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="kcBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#192028"/>
+      <stop offset="100%" stop-color="#12161D"/>
+    </linearGradient>
+    <linearGradient id="kcMatteDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3A4452"/>
+      <stop offset="50%" stop-color="#2D3642"/>
+      <stop offset="100%" stop-color="#232B36"/>
+    </linearGradient>
+    <linearGradient id="kcNaturalWood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#80593B"/>
+      <stop offset="50%" stop-color="#67462B"/>
+      <stop offset="100%" stop-color="#4F331D"/>
+    </linearGradient>
+    <linearGradient id="kcFilm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.32"/>
+      <stop offset="50%" stop-color="#C5A880" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#kcBg)"/>
+
+  <!-- Upper Custom Matte Cabinets with Soft Ambient Lighting -->
+  <rect x="60" y="40" width="680" height="230" fill="url(#kcMatteDark)" rx="3"/>
+  <line x1="286" y1="40" x2="286" y2="270" stroke="#161B22" stroke-width="3"/>
+  <line x1="513" y1="40" x2="513" y2="270" stroke="#161B22" stroke-width="3"/>
+
+  <!-- Integrated Under-Cabinet LED Lighting Strip -->
+  <rect x="60" y="267" width="680" height="4" fill="#FFEAC6" opacity="0.85"/>
+  <circle cx="200" cy="272" r="30" fill="#FFEAC6" opacity="0.15"/>
+  <circle cx="400" cy="272" r="30" fill="#FFEAC6" opacity="0.15"/>
+  <circle cx="600" cy="272" r="30" fill="#FFEAC6" opacity="0.15"/>
+
+  <!-- Backsplash Area with Linear Textured Tiles -->
+  <rect x="60" y="271" width="680" height="70" fill="#202732"/>
+  <line x1="60" y1="305" x2="740" y2="305" stroke="#181E27" stroke-width="2"/>
+
+  <!-- Lower Custom Natural Walnut Cabinets with Finger-Pull Channels -->
+  <rect x="60" y="341" width="680" height="220" fill="url(#kcNaturalWood)" rx="3"/>
+  
+  <!-- Wood grain striations -->
+  <g stroke="#3D2613" stroke-width="1.5" opacity="0.4" fill="none">
+    <path d="M 80 390 Q 200 380, 260 385"/>
+    <path d="M 90 470 Q 220 460, 270 465"/>
+    <path d="M 310 400 Q 420 390, 500 395"/>
+    <path d="M 320 480 Q 440 475, 490 480"/>
+    <path d="M 530 410 Q 640 405, 720 410"/>
+    <path d="M 540 490 Q 660 485, 710 490"/>
+  </g>
+
+  <!-- Cabinet Door Reveal Joints -->
+  <line x1="286" y1="341" x2="286" y2="561" stroke="#25170B" stroke-width="3"/>
+  <line x1="513" y1="341" x2="513" y2="561" stroke="#25170B" stroke-width="3"/>
+
+  <!-- Minimalist Integrated J-Pull Channels in Champagne Gold -->
+  <rect x="60" y="341" width="226" height="8" fill="#C5A880" opacity="0.8"/>
+  <rect x="286" y="341" width="227" height="8" fill="#C5A880" opacity="0.8"/>
+  <rect x="513" y="341" width="227" height="8" fill="#C5A880" opacity="0.8"/>
+
+  <!-- Protected Matte Finish Surface Reflection Layer -->
+  <polygon points="60,40 286,40 286,270 60,270" fill="url(#kcFilm)"/>
+  <polygon points="286,341 513,341 513,561 286,561" fill="url(#kcFilm)"/>
+
+  <!-- Architectural Base Plinth (Kickboard) -->
+  <rect x="60" y="561" width="680" height="24" fill="#14181F"/>
+</svg>

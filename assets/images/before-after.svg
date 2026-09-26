@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="baBg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181E24"/>
+      <stop offset="100%" stop-color="#101419"/>
+    </linearGradient>
+
+    <!-- Left Unprotected Marble -->
+    <linearGradient id="baMarbleL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECE8E1"/>
+      <stop offset="50%" stop-color="#DFD9CF"/>
+      <stop offset="100%" stop-color="#D5CEBF"/>
+    </linearGradient>
+
+    <!-- Right Protected Marble -->
+    <linearGradient id="baMarbleR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#F7F5F1"/>
+      <stop offset="100%" stop-color="#EBE7DE"/>
+    </linearGradient>
+
+    <!-- Right Optical Film Gloss -->
+    <linearGradient id="baFilmR" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="35%" stop-color="#C5A880" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="baLight2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFEED4" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#baBg2)"/>
+
+  <!-- Architectural Background Wall -->
+  <rect x="60" y="30" width="1080" height="230" fill="#202731" opacity="0.4" rx="4"/>
+  <line x1="280" y1="30" x2="280" y2="260" stroke="rgba(255,255,255,0.05)" stroke-width="1.5"/>
+  <line x1="920" y1="30" x2="920" y2="260" stroke="rgba(255,255,255,0.05)" stroke-width="1.5"/>
+
+  <!-- LEFT HALF: Unprotected Tabletop (Scratched, Duller) -->
+  <polygon points="60,260 600,260 600,610 60,610" fill="url(#baMarbleL)"/>
+
+  <!-- RIGHT HALF: Protected Tabletop (Pristine, Clear, Glossy) -->
+  <polygon points="600,260 1140,260 1140,610 600,610" fill="url(#baMarbleR)"/>
+
+  <!-- Continuous Marble Veins Across Left and Right -->
+  <g fill="none">
+    <!-- Left side veins (subtly duller) -->
+    <path d="M 80 300 Q 260 360, 420 330 T 600 365" stroke="#ABA192" stroke-width="2.6" opacity="0.65"/>
+    <path d="M 120 420 Q 300 460, 500 430 T 600 465" stroke="#BFB6A8" stroke-width="2" opacity="0.65"/>
+    <path d="M 320 280 Q 480 340, 600 325" stroke="#A09686" stroke-width="2.2" opacity="0.65"/>
+    <path d="M 180 510 Q 360 550, 600 540" stroke="#C4BBB0" stroke-width="1.6" opacity="0.65"/>
+
+    <!-- Right side veins (crisp, deep under clear film) -->
+    <path d="M 600 365 Q 780 390, 1100 360" stroke="#9E9281" stroke-width="2.8" opacity="0.75"/>
+    <path d="M 600 465 Q 880 500, 1120 450" stroke="#B0A696" stroke-width="2.2" opacity="0.75"/>
+    <path d="M 600 325 Q 740 335, 980 370" stroke="#928675" stroke-width="2.4" opacity="0.75"/>
+    <path d="M 600 540 Q 760 560, 920 580" stroke="#B8AEA0" stroke-width="1.8" opacity="0.75"/>
+    <!-- Warm golden veins on protected side -->
+    <path d="M 600 340 Q 760 370, 1020 380" stroke="#D4BE9E" stroke-width="1.2" opacity="0.8"/>
+  </g>
+
+  <!-- Left Side: Everyday micro-scratches & cup ring -->
+  <g stroke="#91887B" stroke-width="1.2" opacity="0.7" fill="none" stroke-linecap="round">
+    <line x1="220" y1="360" x2="290" y2="352"/>
+    <line x1="250" y1="375" x2="330" y2="368"/>
+    <line x1="190" y1="410" x2="250" y2="402"/>
+    <line x1="270" y1="390" x2="350" y2="384"/>
+    <line x1="380" y1="420" x2="450" y2="415"/>
+    <line x1="430" y1="440" x2="510" y2="435"/>
+  </g>
+  <ellipse cx="340" cy="460" rx="36" ry="15" fill="none" stroke="#9C8B76" stroke-width="1.6" opacity="0.5"/>
+
+  <!-- Right Side: Clean Surface Protection Film Lustre -->
+  <polygon points="600,260 1140,260 1140,610 600,610" fill="url(#baFilmR)"/>
+  <line x1="600" y1="260" x2="1140" y2="260" stroke="#FFFFFF" stroke-width="2" opacity="0.85"/>
+
+  <!-- Ambient Light -->
+  <polygon points="800,30 1200,30 1200,675 400,675" fill="url(#baLight2)"/>
+</svg>

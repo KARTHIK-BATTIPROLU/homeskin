@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="instBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B222A"/>
+      <stop offset="100%" stop-color="#11161C"/>
+    </linearGradient>
+    <linearGradient id="instMarble" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#FAF9F6"/>
+      <stop offset="50%" stop-color="#ECE7DF"/>
+      <stop offset="100%" stop-color="#DDD7CB"/>
+    </linearGradient>
+    <linearGradient id="instFilmLayer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C5A880" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="squeegeeGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A58963"/>
+      <stop offset="50%" stop-color="#C5A880"/>
+      <stop offset="100%" stop-color="#E2CCA8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#instBg)"/>
+
+  <!-- Luxury Modern Kitchen in Background -->
+  <rect x="60" y="40" width="680" height="200" fill="#242D37" opacity="0.4" rx="4"/>
+  <rect x="80" y="60" width="300" height="120" fill="#313C4A" opacity="0.6"/>
+  <rect x="420" y="60" width="300" height="120" fill="#313C4A" opacity="0.6"/>
+
+  <!-- High-End Countertop Surface Being Protected -->
+  <polygon points="60,260 740,260 740,540 60,540" fill="url(#instMarble)"/>
+
+  <!-- Natural Marble Veining Underneath -->
+  <g fill="none" opacity="0.7" stroke="#A99F91" stroke-width="2.2">
+    <path d="M 80 320 Q 280 300, 460 340 T 720 310"/>
+    <path d="M 120 440 Q 340 420, 520 460 T 700 430"/>
+    <path d="M 220 280 Q 400 320, 600 290"/>
+    <path d="M 180 500 Q 360 480, 580 520"/>
+  </g>
+
+  <!-- Transparent Protective Film Being Smoothed (Curved Roll Lifted on Right) -->
+  <!-- Applied Smooth Section (Left to Center) -->
+  <polygon points="60,260 460,260 460,540 60,540" fill="url(#instFilmLayer)"/>
+  
+  <!-- Film Edge Wave Transition Under Squeegee -->
+  <path d="M 460 260 Q 480 400, 460 540" stroke="#FFFFFF" stroke-width="3" fill="none" opacity="0.9"/>
+
+  <!-- Lifted Transparent Film Membrane Section (Right) -->
+  <path d="M 460 260 Q 580 220, 680 200 L 680 520 Q 560 510, 460 540 Z" fill="#C5A880" fill-opacity="0.12" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- Professional Precision Squeegee Tool -->
+  <!-- Blade handle -->
+  <g transform="translate(420, 310) rotate(-15)">
+    <!-- Tool Grip Handle -->
+    <rect x="-15" y="-70" width="30" height="70" rx="6" fill="#14181E"/>
+    <rect x="-11" y="-60" width="22" height="45" rx="3" fill="#2E3744"/>
+    <!-- Brass/Alloy Tool Clamp Body -->
+    <rect x="-80" y="0" width="160" height="24" rx="4" fill="url(#squeegeeGold)"/>
+    <!-- Flexible Polyurethane Squeegee Blade -->
+    <polygon points="-80,24 80,24 75,36 -75,36" fill="#FFE8C4"/>
+    <!-- Blade Contact Line -->
+    <line x1="-75" y1="36" x2="75" y2="36" stroke="#FFFFFF" stroke-width="2.5"/>
+  </g>
+
+  <!-- Precision Measurement Grid Guides (Subtle Laser Projection Line) -->
+  <line x1="60" y1="260" x2="740" y2="260" stroke="#C5A880" stroke-width="2" opacity="0.8"/>
+  <line x1="60" y1="540" x2="740" y2="540" stroke="#C5A880" stroke-width="2" opacity="0.8"/>
+  <!-- Optical Bubble-Free Contact Point Glow -->
+  <ellipse cx="445" cy="350" rx="16" ry="6" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Clean Front Edge Bevel -->
+  <polygon points="60,540 740,540 740,575 60,575" fill="#BFB7A8"/>
+  <line x1="60" y1="540" x2="740" y2="540" stroke="#FFFFFF" stroke-width="2"/>
+</svg>

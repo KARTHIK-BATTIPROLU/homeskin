@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="spBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B2129"/>
+      <stop offset="100%" stop-color="#11151B"/>
+    </linearGradient>
+    <linearGradient id="spMarble" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#F2EEE7"/>
+      <stop offset="100%" stop-color="#DDD6CA"/>
+    </linearGradient>
+    <linearGradient id="spFilm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="45%" stop-color="#C5A880" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#spBg)"/>
+
+  <!-- Macro Close-Up Countertop Slab -->
+  <polygon points="60,100 740,100 740,500 60,500" fill="url(#spMarble)"/>
+
+  <!-- Marble Veins Underneath -->
+  <g fill="none" opacity="0.75" stroke="#A99F90" stroke-width="2.5">
+    <path d="M 80 180 Q 280 150, 480 200 T 720 170"/>
+    <path d="M 100 320 Q 320 290, 520 340 T 700 300"/>
+    <path d="M 160 440 Q 360 410, 580 460"/>
+  </g>
+
+  <!-- Left Side: Unprotected Area with Fine Everyday Friction Scratches -->
+  <g stroke="#8A7E6E" stroke-width="1.4" opacity="0.8" fill="none" stroke-linecap="round">
+    <line x1="120" y1="220" x2="210" y2="210"/>
+    <line x1="150" y1="240" x2="250" y2="230"/>
+    <line x1="180" y1="270" x2="270" y2="262"/>
+    <line x1="130" y1="300" x2="220" y2="292"/>
+    <line x1="160" y1="340" x2="260" y2="332"/>
+    <line x1="200" y1="370" x2="290" y2="362"/>
+    <line x1="140" y1="410" x2="230" y2="405"/>
+    <!-- Subtle circular abrasion scuff from ceramic tableware -->
+    <path d="M 190 280 A 40 18 0 0 1 270 280" stroke-width="1.2" opacity="0.6"/>
+  </g>
+
+  <!-- Right Side: Surface Protected with HOMSKIN Self-Healing Clear Film -->
+  <polygon points="380,100 740,100 740,500 380,500" fill="url(#spFilm)"/>
+
+  <!-- Film Protective Edge Boundary Line -->
+  <line x1="380" y1="100" x2="380" y2="500" stroke="#FFFFFF" stroke-width="3" opacity="0.9"/>
+  <line x1="380" y1="100" x2="380" y2="500" stroke="#C5A880" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- Front Beveled Edge of Slab -->
+  <polygon points="60,500 740,500 740,540 60,540" fill="#C2B9AA"/>
+  <line x1="60" y1="500" x2="740" y2="500" stroke="#FFFFFF" stroke-width="2" opacity="0.85"/>
+</svg>

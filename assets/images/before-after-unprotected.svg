@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bauBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181E24"/>
+      <stop offset="100%" stop-color="#101419"/>
+    </linearGradient>
+
+    <!-- Unprotected Marble with slightly duller surface reflectance -->
+    <linearGradient id="bauMarble" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECE8E1"/>
+      <stop offset="35%" stop-color="#DFD9CF"/>
+      <stop offset="70%" stop-color="#D5CEBF"/>
+      <stop offset="100%" stop-color="#C8C0AF"/>
+    </linearGradient>
+
+    <!-- Warm daylight spill -->
+    <linearGradient id="bauLight" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFEED4" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Context Room Background -->
+  <rect width="1200" height="675" fill="url(#bauBg)"/>
+
+  <!-- Architectural Background Wall & Modern Paneling -->
+  <rect x="60" y="30" width="1080" height="230" fill="#202731" opacity="0.4" rx="4"/>
+  <line x1="280" y1="30" x2="280" y2="260" stroke="rgba(255,255,255,0.05)" stroke-width="1.5"/>
+  <line x1="600" y1="30" x2="600" y2="260" stroke="rgba(255,255,255,0.05)" stroke-width="1.5"/>
+  <line x1="920" y1="30" x2="920" y2="260" stroke="rgba(255,255,255,0.05)" stroke-width="1.5"/>
+
+  <!-- Full Tabletop: Unprotected State -->
+  <polygon points="60,260 1140,260 1140,610 60,610" fill="url(#bauMarble)"/>
+
+  <!-- Natural Marble Veining (Continuous Across Table) -->
+  <g fill="none" opacity="0.65">
+    <path d="M 80 300 Q 260 360, 420 330 T 780 390 T 1100 360" stroke="#ABA192" stroke-width="2.6"/>
+    <path d="M 120 420 Q 300 460, 500 430 T 880 500 T 1120 450" stroke="#BFB6A8" stroke-width="2"/>
+    <path d="M 320 280 Q 480 340, 640 310 T 980 370" stroke="#A09686" stroke-width="2.2"/>
+    <path d="M 180 510 Q 360 550, 560 530 T 920 580" stroke="#C4BBB0" stroke-width="1.6"/>
+    <!-- Micro-branching veining -->
+    <path d="M 440 340 Q 480 390, 510 430" stroke="#A89E8F" stroke-width="1.4"/>
+    <path d="M 720 380 Q 750 430, 800 480" stroke="#B8AFA2" stroke-width="1.4"/>
+  </g>
+
+  <!-- ========================================================
+       REALISTIC EVERYDAY WEAR ON UNPROTECTED SURFACE
+       ======================================================== -->
+  <!-- Micro-scratches from cutlery, keys, and sliding ceramics -->
+  <g stroke="#91887B" stroke-width="1.2" opacity="0.75" fill="none" stroke-linecap="round">
+    <!-- Cluster 1 (Left Area) -->
+    <line x1="220" y1="360" x2="290" y2="352"/>
+    <line x1="250" y1="375" x2="330" y2="368"/>
+    <line x1="190" y1="410" x2="250" y2="402"/>
+    <line x1="270" y1="390" x2="350" y2="384"/>
+    <line x1="230" y1="435" x2="305" y2="427"/>
+    <line x1="280" y1="450" x2="340" y2="446"/>
+
+    <!-- Cluster 2 (Center Prep/Dining Zone) -->
+    <line x1="420" y1="370" x2="510" y2="364"/>
+    <line x1="460" y1="388" x2="530" y2="382"/>
+    <line x1="500" y1="410" x2="570" y2="405"/>
+    <line x1="440" y1="440" x2="525" y2="432"/>
+    <line x1="530" y1="455" x2="610" y2="448"/>
+    <line x1="480" y1="475" x2="560" y2="470"/>
+
+    <!-- Cluster 3 (Right Area) -->
+    <line x1="680" y1="365" x2="760" y2="358"/>
+    <line x1="720" y1="385" x2="795" y2="380"/>
+    <line x1="780" y1="420" x2="860" y2="414"/>
+    <line x1="820" y1="445" x2="890" y2="440"/>
+    <line x1="740" y1="470" x2="815" y2="465"/>
+    <line x1="880" y1="480" x2="950" y2="475"/>
+  </g>
+
+  <!-- Faint Abrasive Friction Scuffing (Dull Finish) -->
+  <ellipse cx="360" cy="410" rx="90" ry="35" fill="#887E6F" opacity="0.08"/>
+  <ellipse cx="720" cy="430" rx="110" ry="40" fill="#887E6F" opacity="0.07"/>
+
+  <!-- Subtle Everyday Liquid Cup Ring Marks (Coffee / Citrus Acid Etch) -->
+  <g opacity="0.55" fill="none" stroke-width="1.6">
+    <!-- Ring 1 -->
+    <ellipse cx="340" cy="460" rx="36" ry="15" stroke="#9C8B76"/>
+    <ellipse cx="339" cy="461" rx="33" ry="13" stroke="#8E7D68" stroke-dasharray="8 4"/>
+    <!-- Ring 2 (Faint) -->
+    <ellipse cx="640" cy="480" rx="42" ry="16" stroke="#948470" opacity="0.6"/>
+  </g>
+
+  <!-- Soft Ambient Lighting -->
+  <polygon points="800,30 1200,30 1200,675 400,675" fill="url(#bauLight)"/>
+</svg>

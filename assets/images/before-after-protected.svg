@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bapBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181E24"/>
+      <stop offset="100%" stop-color="#101419"/>
+    </linearGradient>
+
+    <!-- Protected Marble: Rich, Vibrant, Pristine Depth -->
+    <linearGradient id="bapMarble" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#F7F5F1"/>
+      <stop offset="70%" stop-color="#EBE7DE"/>
+      <stop offset="100%" stop-color="#DDD8CD"/>
+    </linearGradient>
+
+    <!-- Warm daylight spill -->
+    <linearGradient id="bapLight" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFEED4" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Optical Surface Protection Film Specular Reflection & Clean Sheen -->
+    <linearGradient id="bapFilmSheen" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="35%" stop-color="#C5A880" stop-opacity="0.18"/>
+      <stop offset="65%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.32"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Context Room Background (Identical to Unprotected) -->
+  <rect width="1200" height="675" fill="url(#bapBg)"/>
+
+  <!-- Architectural Background Wall & Modern Paneling (Identical to Unprotected) -->
+  <rect x="60" y="30" width="1080" height="230" fill="#202731" opacity="0.4" rx="4"/>
+  <line x1="280" y1="30" x2="280" y2="260" stroke="rgba(255,255,255,0.05)" stroke-width="1.5"/>
+  <line x1="600" y1="30" x2="600" y2="260" stroke="rgba(255,255,255,0.05)" stroke-width="1.5"/>
+  <line x1="920" y1="30" x2="920" y2="260" stroke="rgba(255,255,255,0.05)" stroke-width="1.5"/>
+
+  <!-- Full Tabletop: Protected State (Identical Geometry, Pristine Condition) -->
+  <polygon points="60,260 1140,260 1140,610 60,610" fill="url(#bapMarble)"/>
+
+  <!-- Natural Marble Veining (Exact Same Alignment & Veins, Crisp & Deep) -->
+  <g fill="none" opacity="0.75">
+    <path d="M 80 300 Q 260 360, 420 330 T 780 390 T 1100 360" stroke="#9E9281" stroke-width="2.8"/>
+    <path d="M 120 420 Q 300 460, 500 430 T 880 500 T 1120 450" stroke="#B0A696" stroke-width="2.2"/>
+    <path d="M 320 280 Q 480 340, 640 310 T 980 370" stroke="#928675" stroke-width="2.4"/>
+    <path d="M 180 510 Q 360 550, 560 530 T 920 580" stroke="#B8AEA0" stroke-width="1.8"/>
+    <!-- Micro-branching veining -->
+    <path d="M 440 340 Q 480 390, 510 430" stroke="#9B8E7D" stroke-width="1.5"/>
+    <path d="M 720 380 Q 750 430, 800 480" stroke="#ABA091" stroke-width="1.5"/>
+    <!-- Delicate warm golden undertone veining visible under clear film -->
+    <path d="M 280 320 Q 380 370, 540 350" stroke="#D4BE9E" stroke-width="1.2" opacity="0.8"/>
+    <path d="M 760 370 Q 860 410, 1020 380" stroke="#D4BE9E" stroke-width="1.2" opacity="0.8"/>
+  </g>
+
+  <!-- Optical Protection Film Sheen & Specular Polish (Zero Scratches, Zero Stains) -->
+  <polygon points="60,260 1140,260 1140,610 60,610" fill="url(#bapFilmSheen)"/>
+
+  <!-- Subtle Precision Beveled Edge Reflection -->
+  <line x1="60" y1="260" x2="1140" y2="260" stroke="#FFFFFF" stroke-width="2" opacity="0.85"/>
+  <line x1="60" y1="610" x2="1140" y2="610" stroke="#C5A880" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Soft Ambient Lighting -->
+  <polygon points="800,30 1200,30 1200,675 400,675" fill="url(#bapLight)"/>
+</svg>
